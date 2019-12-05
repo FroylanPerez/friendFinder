@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder - Survey</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row">
+        <div class="col-4-md"></div>
+        <div class="col-4-md">
+            <h3 class="text-left"> Survey Questions</h3>
+        </div>
+        <div class="col-4-md"></div>
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-12-md">
+            <h3>About You</h3>
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" class="form-control" required>
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="photo" class="form-control" required>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 1</h3>
+            <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+            <select class="chosen-select" id="q1" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 2</h3>
+            <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+            <select class="chosen-select" id="q2" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 3</h3>
+            <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+            <select class="chosen-select" id="q3" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 4</h3>
+            <h4>You rarely do something just out of sheer curiosity.</h4>
+            <select class="chosen-select" id="q4" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 5</h3>
+            <h4>People can rarely upset you.</h4>
+            <select class="chosen-select" id="q5" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 6</h3>
+            <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+            <select class="chosen-select" id="q6" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 7</h3>
+            <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+            <select class="chosen-select" id="q7" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 8</h3>
+            <h4>You rarely get carried away by fantasies and ideas.</h4>
+            <select class="chosen-select" id="q8" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 9</h3>
+            <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+            <select class="chosen-select" id="q9" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12-md">
+            <h3>Question 10</h3>
+            <h4>You feel more energetic after spending time with a group of people.</h4>
+            <select class="chosen-select" id="q10" name="answers">
+                <option selected disabled>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-12-md">
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+        </div>
+    </div>
+    <br>
+               
+<!--Results Modal-->
+<div id="resultModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Your Best Match</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-5">
+                        <img class="img-responsive" id="match-pic" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909__340.png" alt="Your Best Friend">
+                </div>
+                <div class="col-xs-7">
+                        <h2 id="match-name"></h2>
+                        <h3 id="match-stats"></h3>
+                </div>
+            </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/friends">API Friends List</a>
+      </div>
+    </footer>
+
+  </div>
+
+
+</body>
+</html>
+
+<script type="text/javascript">
+  
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+  
+    //   var answer1 = parseInt($("#q1").val());
+    //   var answer2 = parseInt($("#q2").val());
+    //   var answer3 = parseInt($("#q3").val());
+    //   var answer4 = parseInt($("#q4").val());
+    //   var answer5 = parseInt($("#q5").val());
+    //   var answer6 = parseInt($("#q6").val());
+    //   var answer7 = parseInt($("#q7").val());
+    //   var answer8 = parseInt($("#q8").val());
+    //   var answer9 = parseInt($("#q9").val());
+    //   var answer10 = parseInt($("#q10").val());
+    //  console.log(typeof answer10);
+    //  console.log(answer10+answer9);
+
+      var yourScore = [ parseInt($("#q1").val()), parseInt($("#q2").val()), parseInt($("#q3").val()), parseInt($("#q4").val()), parseInt($("#q5").val()),
+                        parseInt($("#q6").val()), parseInt($("#q7").val()), parseInt($("#q8").val()), parseInt($("#q9").val()), parseInt($("#q10").val())];
+      var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: yourScore
+      };
+  
+      console.log(newFriend);
+      console.log(newFriend.scores);
+      console.log("Hola... ", (newFriend.scores[0] + newFriend.scores[1]));
+  
+    //   $.post("/friends", newFriend,
+    //     function(data) {
+  
+    //       if (data) {
+    //         alert("You are all ready registered in our Friend Finder App!!");
+    //       }
+  
+    //       else {
+    //         alert("Sorry you are on the wait list");
+    //       }
+  
+    //       $("#name").val("");
+    //       $("#photo").val("");
+    //       $("#q1").val();
+    //       $("#q2").val();
+    //       $("#q3").val();
+    //       $("#q4").val();
+    //       $("#q5").val();
+    //       $("#q6").val();
+    //       $("#q7").val();
+    //       $("#q8").val();
+    //       $("#q9").val();
+    //       $("#q10").val();
+
+    //     });
+  
+    $.get("/friends",function(data){
+                var isDuplicate = false;
+                for(var i = 0; i < data.length; i++){
+                    for(var x = 0; x < data[i].scores.length; x++){
+                        data[i].scores[x] = parseInt(data[i].scores[x]);
+                    }
+                    if(JSON.stringify(data[i]) === JSON.stringify(newFriend)){
+                        isDuplicate = true;
+                    }
+                }
+                if(isDuplicate === false){
+                    $.post("/survey",newFriend,
+                    function(data){
+                        $.get("/survey",function(data){
+                            var compatibleFriends = [];
+                            for(var i = 0; i < data.length; i++){
+                                if(data[i].name !== $("#name").val().trim()){
+                                    var friendScore = data[i].scores;
+                                    var compatibility = 0;
+                                    for(var x = 0; x < friendScore.length; x++){
+                                        var difference =  Math.abs(parseInt(friendScore[x]) - parseInt(yourScore[x]));
+                                        compatibility = compatibility + difference;
+                                    }
+                                    compatibleFriends[i] = compatibility;
+                                }
+                            }
+                            var min = compatibleFriends.reduce((a, b) => Math.min(a, b));
+                            var modalBody = $("<div>");
+                            var matchName = $(`<h6>${data[compatibleFriends.indexOf(min)].name}</h6>`);
+                            $(modalBody).append(matchName);
+                            var matchImg = $(`<img src="${data[compatibleFriends.indexOf(min)].photo}" style="max-width:400px;"/>`);                   
+                            $(modalBody).append(matchImg);
+                            $("#modalBody").empty();
+                            $("#modalBody").append(modalBody);
+                            $("#modalButton").trigger("click");
+                            $("#submit").hide();
+                            $("#success").show();
+                            setTimeout(function(){
+                                $("#success").hide();
+                                $("#submit").show();
+                            }, 3000);
+                        });
+                    });
+                }
+                else{
+                    $("#modalErrorButton").trigger("click");
+                }
+            });
+
+    });
+  
+  </script>
+  
